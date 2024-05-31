@@ -1,6 +1,11 @@
 # Traveling Salesman Problem (TSP) Solver
 
-This repository contains a solver for the Traveling Salesman Problem (TSP) using Gurobi. The implementation demonstrates the use of callback functions to add lazy constraints for subtour elimination, ensuring that the solution forms a single tour that visits each city exactly once.
+This repository contains a solver for the Traveling Salesman Problem (TSP) using Gurobi.
+The implementation demonstrates the use of callback functions to add lazy constraints for subtour elimination, 
+ensuring that the solution forms a single tour that visits each city exactly once.
+
+In particular the idea of this project is to explore the relationship of
+the presented solution with Benders Decomposition.
 
 ## Features
 
